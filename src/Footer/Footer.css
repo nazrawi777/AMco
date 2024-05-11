@@ -1,0 +1,560 @@
+
+.container09 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6rem;
+  left: 100px;
+  height: 0px;
+  padding-top: 100px;
+}
+.contact {
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -60px;
+  top: 100px;
+}
+.contact h2{
+  font-size: 70px;
+  color: #0C7885;
+  position: relative;
+  top: 160px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.input-row2{
+  width: 100px;
+  height: 30px;
+}
+
+.input-box {
+  flex: 1;
+  position: relative;
+  top: 150px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box:last-child {
+  margin-right: 10px;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box textarea {
+  height: 100px;
+}
+.input-row2 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 21px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+/* Hover effect */
+.input-row2 input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.contact1{
+  position: relative;
+  top:450px;
+  width: 420px;
+  height: 300px;
+  left: 10px;
+
+}
+.contact-info{
+  position: relative;
+  bottom: 30px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.nu{
+  position: relative;
+  bottom: 110px;
+  left: 130px;
+  color: gray;
+}
+.cont{
+  position: relative;
+  bottom: -170px;
+  color: gray;
+}
+.contact2{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 560px;
+  left: 100px;
+}
+.contact2 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media .icon {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-media .icon:hover {
+  color: #0C7885;
+}
+
+.image29{
+    background-color: #0C7885;
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.si219{
+  background-color: white;
+  width: 1200px;
+  height: 7px;
+  position: relative;
+  right: -80px;
+  top: -34rem;
+}
+.lat{
+  width:250px;
+  height: 65px;
+  position: relative;
+  left: 550px;
+  top: -36.5rem;
+  color: teal;
+  background-color: white;
+  font-size: 29px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+  z-index: 4;
+}
+h6{
+color: #0C7885;
+font-size: 20px;
+text-align: center;
+width: 50%;
+left: 430px;
+position: relative;
+bottom: -320px;
+}
+@media screen and (max-width: 480px){
+.container09 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 8rem;
+  left: 100px;
+  height: 0px;
+  padding-top: 100px;
+}
+.contact {
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -60px;
+  top: 100px;
+}
+.contact h2{
+  font-size: 70px;
+  color: #0C7885;
+  position: relative;
+  top: 160px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.input-row2{
+  width: 100px;
+  height: 30px;
+}
+
+.input-box {
+  flex: 1;
+  position: relative;
+  top: 150px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box:last-child {
+  margin-right: 10px;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box textarea {
+  height: 100px;
+}
+.input-row2 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 21px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+/* Hover effect */
+.input-row2 input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.contact1{
+  position: relative;
+  top:450px;
+  width: 420px;
+  height: 300px;
+  left: 10px;
+
+}
+.contact-info{
+  position: relative;
+  bottom: 30px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.nu{
+  position: relative;
+  bottom: 110px;
+  left: 130px;
+  color: gray;
+}
+.cont{
+  position: relative;
+  bottom: -170px;
+  color: gray;
+}
+.contact2{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 560px;
+  left: 100px;
+}
+.contact2 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media .icon {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-media .icon:hover {
+  color: #0C7885;
+}
+
+.image29{
+    background-color: #0C7885;
+    width: 372%;
+    position: relative;
+    right: 0px;
+    bottom: -0px;
+}
+.si219{
+  background-color: white;
+  width: 1000px;
+  height: 7px;
+  position: relative;
+  right: -180px;
+  top: -34rem;
+}
+.lat{
+  width:250px;
+  height: 65px;
+  position: relative;
+  left: 550px;
+  top: -36.5rem;
+  color: teal;
+  background-color: white;
+  font-size: 29px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+  z-index: 4;
+}
+h6{
+color: #0C7885;
+font-size: 20px;
+text-align: center;
+width: 150%;
+left: 430px;
+position: relative;
+bottom: -320px;
+}
+}
+@media screen and (width: 412px){
+   .container09 {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 6rem;
+    left: 100px;
+    height: 2000px;
+    padding-top: 100px;
+  }
+  .contact {
+    width: 500px;
+    height: 680px;
+    position: relative;
+    left: -60px;
+    top: 100px;
+  }
+  .contact h2{
+    font-size: 70px;
+    color: #0C7885;
+    position: relative;
+    top: 160px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  .input-row2{
+    width: 100px;
+    height: 30px;
+  }
+  
+  .input-box {
+    flex: 1;
+    position: relative;
+    top: 150px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  .input-box input[type="text"].increased-width {
+    width: 60%; /* Adjust the width as needed */
+  }
+  
+  .input-box:last-child {
+    margin-right: 10px;
+  }
+  
+  .input-box input[type="text"],
+  .input-box textarea {
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 4px solid teal; /* Adding border to all sides with teal color */
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Changing placeholder font-family */
+  }
+  
+  .input-box input[type="text"]::placeholder,
+  .input-box textarea::placeholder {
+    color: #999; /* Placeholder text color */
+    font-family: Arial, sans-serif; /* Changing placeholder font-family */
+  }
+  
+  .input-box textarea {
+    height: 100px;
+  }
+  .input-row2 input[type="submit"] {
+    background-color: #0C7885; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 21px; /* Font size */
+    position: relative;
+    left: 20px;
+    top: 150px;
+  }
+  
+  /* Hover effect */
+  .input-row2 input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  .contact1{
+    position: relative;
+    top:450px;
+    width: 420px;
+    height: 300px;
+    left: 10px;
+  
+  }
+  .contact-info{
+    position: relative;
+    bottom: 30px;
+    font-size: 22px;
+    line-height: 70px;
+    color: gray;
+  }
+  .nu{
+    position: relative;
+    bottom: 110px;
+    left: 130px;
+    color: gray;
+  }
+  .cont{
+    position: relative;
+    bottom: -170px;
+    color: gray;
+  }
+  .contact2{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 560px;
+    left: 100px;
+  }
+  .contact2 h2{
+    font-size: 50px;
+    color: #0C7885;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-media .icon {
+    font-size: 60px;
+    padding-top: 10px;
+    margin-right: 10px;
+    color: gray;
+    position: relative;
+    bottom: 50px;
+  }
+  
+  .social-media .icon:hover {
+    color: #0C7885;
+  }
+  
+  .image29{
+      background-color: #0C7885;
+      width: 328%;
+      position: relative;
+      right: 0px;
+      bottom: -0px;
+  }
+  .si219{
+    background-color: white;
+    width: 1000px;
+    height: 7px;
+    position: relative;
+    right: -180px;
+    top: -34rem;
+  }
+  .lat{
+    width:250px;
+    height: 65px;
+    position: relative;
+    left: 550px;
+    top: -36.5rem;
+    color: teal;
+    background-color: white;
+    font-size: 29px;
+    border-top: 3px solid teal;
+    border-left: 3px solid teal;
+    border-right: 3px solid teal;
+    border-bottom: 3px solid teal;
+    box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+    z-index: 4;
+  }
+  h6{
+  color: #0C7885;
+  font-size: 20px;
+  text-align: center;
+  width: 150%;
+  left: 430px;
+  position: relative;
+  bottom: -280px;
+  }
+  }

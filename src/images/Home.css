@@ -1,0 +1,1988 @@
+.home-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background-color: teal;
+    height: 600px;
+    overflow: hidden;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .cti{
+    width: 100%;
+    position: relative;
+    top: 131rem;
+    height: 550px;
+  }
+  .cti h1{
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 270px;
+    text-align: center;
+  }
+  .nity{
+    width: 100%;
+    height: 90%;
+    margin-top: -50px;
+  }
+  
+  .home-container .absolute {
+    position: absolute;
+  }
+  
+  .home-container .top-0 {
+    top: 0;
+  }
+  
+  .home-container .left-0 {
+    left: 0;
+  }
+  
+  /* Other absolute divs */
+  .nd {
+    position: relative;
+  }
+  
+  .nc {
+
+    width: 100%;
+    position: relative;
+    bottom: -px;
+    height: 600px; /* Push the image below the overlay */
+  }
+  .color-overlay {
+    position: absolute;
+    top: -243px;
+    left: -105px;
+    width: 119%;
+    height: 190%;
+    color: white;
+    background-color: rgba(0, 128, 128, 0.3); /* Adjust the color and opacity as needed */
+    pointer-events: none; /* This line ensures that the overlay doesn't interfere with mouse events */
+}
+  .ni {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  .nb {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem; /* Adjust as needed */
+    width: 500px;
+    position: relative;
+    line-height: 60px;
+    top: 275px;
+    left: 20rem;
+    height: 200px;
+    margin-right: 40rem;
+    text-align:  start;
+    padding-left: 0px;
+   margin-bottom: 34rem;
+   font-weight: bold;
+   z-index: 3;
+  }
+ .bc{
+  display: none;
+  width: 118.5%;
+  height: 400px;
+  position: relative;
+  left: -106px;
+ }
+ .cino{
+  width:180px;
+  height: 50px;
+  position: relative;
+  top: -14rem;
+  left: 34rem;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  background-color: teal; 
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 4;
+ }
+  
+  .na {
+    color: white;
+    font-size: 1.7rem; /* Adjust as needed */
+    position: absolute;
+    right: 10rem;
+    bottom: 18rem;
+    transform-origin: bottom right;
+    margin-right: 5px;
+    z-index: 6; /* Adjust as needed */
+  }
+  /*2nd div*/
+  .container1 {
+    display: flex;
+    position: relative;
+    position: relative;
+    width: 99%;
+    height: 2020px;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 10rem;
+    margin-bottom: 50px;
+    margin-left: -10rem;
+    display: block;
+    color: white;
+  }
+  
+
+  .text1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 70rem;
+    left: 4rem; 
+    display: block;
+    font-size: 10rem;
+    color: white;
+  }
+  .rectangleleft {
+    width: 550px;
+    height: 700px;
+    position: relative;
+    bottom: 0rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .rectangleleft img {
+    width: 93%;
+    height: 94%;
+    margin-bottom: 0rem;
+    margin-right: 10px;
+  }
+  .ing img{
+    width: 60%;
+    position: relative;
+    bottom: 10rem;
+    left: 15rem;
+  }
+  
+  .middle {
+    width: 400px;
+  }
+  .rectangler {
+    width: 380px;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    bottom: 72rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    left: 31rem;
+  }
+  .rectangler img{
+    width: 95%;
+    height: 93%;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+  }
+  .rectanglel{
+    width: 380px;
+    height: 550px;
+  
+    position: relative;
+    bottom: 106.4rem;
+    right: 31rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  .rectanglel img{
+    width: 95%;
+    height: 93%;
+    position: relative;
+    top: 1rem;
+  }
+  .rectanglel p{
+    width: 1100px;
+    height: 400px;
+    font-size: 2.3rem;
+    margin-left: -50px;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 260px;
+    
+  }
+
+  .rec1{
+    background-color: rgb(255, 255, 255);
+    width: 1260px;
+    height: 7px;
+    position: relative;
+    right: -50px;
+    top: 38px;
+}
+.nino{
+    width:160px;
+    height: 47px;
+    position: relative;
+    left: 590px;
+    top:12px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    color: teal; 
+    font-size: 19px;
+}
+.feature{
+    position: relative;
+    bottom: -135rem;
+    height: 450px;
+    padding-top: -220px;
+}
+.feature h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+}
+.feature h2{
+    font-size: 80px;
+    position: relative;
+    left: 35rem;
+    bottom: 50px;
+    color: white;
+    font-weight: 600;
+}
+.rec4{
+    background-color: teal;
+    width: 380px;
+    height: 350px;
+    position: relative;
+    bottom: 100px;
+    left: 90px;
+    border-bottom: 2px solid;
+    border-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.rec4 img{
+    width: 95%;
+    height: 94%;
+    position: relative;
+    top: 15px;
+    left: 11px;
+}
+.rec5{
+    width: 490px;
+    height: 350px;
+    background-color: teal;
+    position: relative;
+    bottom: 28rem;
+    left: 42rem;
+    border-bottom: 2px solid;
+    border-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.hy{
+  display: none;
+}
+.rec5 img{
+    width: 96%;
+    height: 94%;
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.niw{
+    width: 1200px;
+    height: 100px;
+    left: 20px;
+    position: relative;
+    bottom: 20rem;
+}
+.niw .rec7{
+    width: 340px;
+    height: 4px;
+    background-color: teal;
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+}
+.niw h1{
+    font-size: 20px;
+    width: 300px;
+    color: teal;
+    text-align: left;
+    position: relative;
+    right: -64px;
+    bottom: 80px;
+}
+.niw .rec8{
+    width: 440px;
+    height: 4px;
+    background-color: teal;
+    position: relative;
+    left: 41rem;
+    bottom: 140px;
+}
+.rec8 h2{
+    font-size: 20px;
+    width: 300px;
+    color: teal;
+    text-align: left;
+    position: relative;
+    left: 0rem;
+    top: 16px;
+
+}
+.dot-container {
+    display: flex;
+  }
+  
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: teal;
+    position: relative;
+    left: 41rem;
+    border-radius: 50%;
+    margin-right: 10px;
+    bottom: 88px; /* Adjust spacing between dots as needed */
+  }
+  .dot1{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 41rem;
+    border-radius: 50%;
+    margin-right: 10px; 
+    background-color: gray;
+    bottom: 88px;
+  }
+
+
+  .rec219{
+    background-color: teal;
+    width: 1200px;
+    height: 7px;
+    position: relative;
+    right: -0px;
+    top: -42rem;
+}
+.nnnn{
+    width:250px;
+    height: 65px;
+    position: relative;
+    left: 470px;
+    top: -44.5rem;
+    color: white;
+    background-color: teal;
+    font-size: 19px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white; /* Adjust the shadow as needed */
+}
+
+
+.rectanglee{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    overflow: hidden; /* Hide overflow text */
+    position: relative;
+    top: 48rem;
+}
+.rectanglee .infiniteloop{
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 36rem;
+    word-spacing: 26px;
+    left: 0rem;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    display: inline-block; /* Display in a single row */
+    animation: moveText 10s linear infinite; /* Adjust animation duration and timing */
+}
+.rectanglee img{
+    width: 98%;
+    margin-left: 13px;
+    height: 90%;
+    position: relative;
+    top: 40px;
+}
+
+  
+  .rer28{
+ background-color: white;
+    width: 88%;
+    height: 7px;
+    position: relative;
+    right: -60px;
+    top: 52rem;
+    
+}
+.non{
+    width:160px;
+    height: 47px;
+    position: relative;
+    left: 550px;
+    top:50.5rem;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    color: teal; 
+    font-size: 19px;
+}
+  .service{
+    height: 4020px;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    bottom: 380px;
+  }
+  
+
+  .abiy{
+    height: 1100px;
+  }
+  .rc19{
+    background-color: #0C7885;
+    width: 1200px;
+    height: 7px;
+    position: relative;
+    right: -80px;
+    top: 5rem;
+}
+.nine{
+  font-weight: bolder;
+    width:220px;
+    height: 60px;
+    position: relative;
+    left: 580px;
+    top:2.9rem;
+    color: white;
+    background-color: #0C7885;
+    font-size: 25px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+     /* Adjust the shadow as needed */
+}
+
+.container4 {
+  display: flex;
+}
+
+.image-column {
+  flex: 1;
+}
+
+.image-column img {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  left: 140px;
+  top: 130px;
+}
+
+.text-column {
+  flex: 1;
+  padding-top: 30px;
+  width: 100px;
+  padding-left: 120px;
+}
+.text-column h1{
+  width: 90%;
+  font-size: 35px;
+  position: relative;
+  top: 83px;
+}
+.text-column h2{
+
+  width: 90%;
+  font-size: 30px;
+  position: relative;
+  bottom: -50px;
+}
+.text-column p{
+  width: 94%;
+  font-size: 20px;
+  position: relative;
+  bottom: -50px;
+}
+/*how we work*/
+.nazii{
+  background-color: #0C7885;
+  height: 700px;
+  width: 100%;
+}
+.rc209{
+  background-color: white;
+  width: 1200px;
+  height: 7px;
+  position: relative;
+  right: -50px;
+  top: 5rem;
+}
+.nnn{
+font-weight: bolder;
+  width:220px;
+  height: 56px;
+  position: relative;
+  left: 510px;
+  top: -1.6rem;
+  color: #0C7885;
+  background-color: white;
+  font-size: 22px;
+  border-top: 3px solid rgb(223, 220, 220);
+  border-left: 3px solid rgb(223, 220, 220);
+  border-right: 3px solid rgb(223, 220, 220);
+  border-bottom: 3px solid rgb(223, 220, 220);
+  
+}
+.container10 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rectangle99 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 13px;
+  position: relative;
+  top: 10rem;
+  height: 360px;
+  margin: 0 10px;
+  padding-top: 90px;
+}
+
+.rectangle99 img {
+  width: 110px;
+  height: 93px;
+  position: relative;
+  bottom: 3rem;
+}
+
+.rectangle99 h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #0C7885;
+  margin-top: 10px;
+  margin-bottom: px;
+  position: relative;
+  bottom: 3.5rem;
+}
+
+.rectangle99 p {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  color: #0C7885;
+  position: relative;
+  bottom: 3.5rem;
+}
+/* Serv*/
+.serv {
+  position: relative;
+  top: 430px;
+  display: flex;
+  width: 101%;
+  left: 0px;
+  height: 590px;
+ background-color: #0C7885;
+}
+
+.image-co1umn {
+  flex: 1;
+}
+
+.image20 {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width:500px;
+  height: 340px;
+}
+
+.text-co1umn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+}
+
+.text-co1umn h1 {
+  font-size: 33px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+
+.text-co1umn p {
+  font-size: 19px;
+  position: relative;
+  color: white;
+  bottom: 90px;
+}
+
+
+
+.image220{
+  width: 227px;
+  position: relative;
+  top: 90px;
+  left: 1122px;
+  height: 360px;
+}
+.tri19{
+  background-color: teal;
+  width: 1200px;
+  height: 7px;
+  position: relative;
+  right: -50px;
+  top: 24rem;
+}
+.tri20{
+font-weight: bolder;
+  width:260px;
+  height: 58px;
+  position: relative;
+  left: 530px;
+  top: 21.5rem;
+  color: white;
+  background-color: teal;
+  font-size: 25px;
+  border-top: 3px solid rgb(223, 220, 220);
+  border-left: 3px solid rgb(223, 220, 220);
+  border-right: 3px solid rgb(223, 220, 220);
+  border-bottom: 3px solid rgb(223, 220, 220);
+}
+.uf {
+position: relative;
+display: flex;
+position: relative;
+top: 80px;
+width: 101%;
+height: 570px;
+background-color: rgb(27, 24, 24);
+z-index: 4;
+}
+.image22{
+  position: relative;
+  left: 650px;
+  bottom: 290px;
+  width:500px;
+  height: 340px;
+}
+.text-co1umn2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  background-color: white;
+  padding-top: 350px;
+  padding-left: 60px;
+}
+
+.text-co1umn2 h1 {
+  font-size: 31px;
+  color: teal;
+  position: relative;
+  bottom: 60px;
+  left: 80px;
+}
+
+.text-co1umn2 p {
+  font-size: 19px;
+  position: relative;
+  color: teal;
+  bottom: 80px;
+  left: 80px;
+}
+.imagec220{
+  width: 227px;
+  position: relative;
+  top: -279px;
+  left: 0px;
+  height: 360px;
+  z-index: 4;
+}
+.servv {
+  position: relative;
+  top: -296px;
+  display: flex;
+  width: 101%;
+  height: 570px;
+  left: -2px;
+background-color: teal;
+}
+
+.image-co1umn20 {
+  flex: 1;
+}
+
+.image210 {
+  position: relative;
+  top: 100px;
+  left: 80px;
+  width:500px;
+  height: 340px;
+}
+
+.text-co1umn20 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  right: 70px;
+
+}
+
+.text-co1umn20 h1 {
+  font-size: 31px;
+  color: white;
+  width: 370px;
+  position: relative;
+  bottom: 10px;
+  right: -90px;
+}
+
+.text-co1umn20 p {
+  font-size: 19px;
+  position: relative;
+  color: white;
+  bottom: 40px;
+  right: -90px;
+}
+.imagec1220{
+  width: 227px;
+  position: relative;
+  top: -656px;
+  left: 933px;
+  height: 360px;
+}
+
+.portfolio-section{
+  width: 100%;
+  position: absolute;
+  top: 5590px;
+  height: 870px;
+  background-color: #000000;
+}
+.portfolio-section1 {
+  padding: 50px;
+
+  background-color: #f9f9f9;
+}
+
+.portfolio-section h1 {
+  text-align: center;
+  font-size: 34px;
+position: relative;
+bottom: 300px;
+  color: teal;
+}
+
+.portfolio-section p {
+  text-align: center;
+  font-size: 23px;
+  position: relative;
+  bottom: 300px;
+  color: teal;
+}
+
+.portfolio-images {
+  position: relative;
+  top: -310px;
+  padding-left: 40px;
+  width: 107%;
+  left: -45px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.portfolio-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+
+.dot-container1 {
+  display: flex;
+  position: relative;
+  top: -360px;
+}
+
+.dot3 {
+  width: 30px;
+  height: 30px;
+  background-color: teal;
+  position: relative;
+  left: 37rem;
+  border-radius: 50%;
+  margin-right: 10px; /* Adjust spacing between dots as needed */
+}
+.dot2{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 37rem;
+  border-radius: 50%;
+  margin-right: 10px; 
+  background-color: gray;
+}
+
+.chu{
+  position: relative;
+  top: -190px;
+  width: 100%;
+  height: 650px;
+}
+.cr1{
+  display: flex;
+  margin-top: -70px;
+  padding-top: 70px;
+  height: 648px;
+  background-color: #0C7885;
+
+}
+.cr1 h1{
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  left: 320px;
+  color: teal;
+  bottom: 130px;
+}
+
+.cr3{
+  background-color: white;
+  border-bottom: 5px solid #11474D;;
+  border-top: 5px solid #11474D;;
+  border-left: 5px solid #11474D;;
+  border-right: 5px solid #11474D;;
+  position: relative;
+  color: #0C7885; /* Text color */
+  width: 880px;
+  height: 450px;
+  left: -510px;
+  font-size: 30px;
+  top: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.cr6{
+  background-color: rgb(2, 49, 49);
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  position: relative;
+  color: #fff; /* Text color */
+  width: 880px;
+  margin-left: -210px;
+  height: 450px;
+  left: -150px;
+  top: 20px;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+.proage1{
+  width: 150px;
+  align-self: center;
+  position: relative;
+  left: 0px;
+  bottom: -10px;
+}
+.chu h3{
+  text-align: center;
+  color: teal;
+   font-size: 28px;
+}
+
+.close-button {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  top: -126px;
+  right: -270px;
+  background-color: transparent;
+  border: none;
+  color: teal;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+.close-button:hover {
+  color: white; /* Change the color when hovered */
+}
+/*contact-[page*/
+
+.container69 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 236rem;
+  left: 50px;
+  width: 80%;
+  height: 600px;
+  padding-top: 100px;
+  z-index: 1;
+}
+.nut{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+}
+.contact30 {
+  display: block;
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -170px;
+  top: -150px;
+}
+.contact30 h2{
+  font-size: 70px;
+  color: #0C7885;
+}
+.contact-form30 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row20 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 85px;
+}
+.input-row20{
+  width: 570px;
+  height: 30px;
+}
+
+.input-box100 {
+  flex: 1;
+
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box100 input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box100:last-child {
+  margin-right: 10px;
+}
+
+.input-box100 input[type="text"],
+.input-box100 textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box100 input[type="text"]::placeholder,
+.input-box100 textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box100 textarea {
+  height: 100px;
+}
+.input-row20 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding-top:12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 29px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 20px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 30px;
+
+}
+
+/* Hover effect */
+.input-row20 input[type="submit1"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+.nu1{
+  position: relative;
+  bottom: 149px;
+  left: 70px;
+}
+.contactf50{
+  position: relative;
+  top:50px;
+  width: 420px;
+  height: 300px;
+  left: -20px;
+}
+.contact-info1{
+  position: relative;
+  bottom: 30px;
+  left: 40px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.cont5{
+  position: relative;
+  top: 130px;
+  left: -40px;
+  color: gray;
+  font-size: 22px;
+}
+.contact200{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 140px;
+  left: 58px;
+}
+.contact200 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-media20 {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media20 .icon20 {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-media20 .icon:hover {
+  color: #0C7885;
+}
+
+.image239{
+    background-color: #0C7885;
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 240px;
+}
+.sl219{
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  height: 7px;
+  position: relative;
+  right: -50px;
+  top: -50rem;
+  z-index: 0;
+}
+.last1{
+  width:200px;
+  height: 55px;
+  position: relative;
+  left: 550px;
+  top: 188.5rem;
+  z-index: 3;
+  color: teal;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+}
+.li{
+color: #0C7885;
+font-size: 25px;
+width: 50%;
+text-align: center;
+left: 350px;
+position: relative;
+bottom: -3950px;
+z-index: 3;
+}
+
+  /* Mobile Styles */
+  @media screen and (max-width: 480px) {
+    .home-container{
+      height: 740px;
+      width: 374%;
+      background-color: #02090e;
+    }
+
+    .nb {
+      font-size: 3.8rem; /* Adjust as needed */
+      width: auto;
+      position: relative;
+      line-height: 80px;
+      left: 52px;
+      top: 110px;
+      height: auto;
+      margin-right: 20px; /* Adjust as needed */
+      font-weight: bolder;
+    }
+  
+    .na {
+      font-size: 2rem; /* Adjust as needed */
+      bottom: 22rem; /* Adjust as needed */
+      margin-right: -30rem; /* Adjust as needed */
+      font-weight: bolder;
+      width: 140%;
+    }
+    .cino{
+      width:140px;
+      height: 53.4px;
+      position: relative;
+      top: 1.5rem;
+      left: 14rem;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      background-color: teal; 
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .color-overlay {
+      position: absolute;
+      top: -284px;
+      left: -505px;
+      width: 308%;
+      height: 356%;
+      background-color: rgba(0, 128, 128, 0.3); /* Adjust the color and opacity as needed */
+      pointer-events: none; /* This line ensures that the overlay doesn't interfere with mouse events */
+    }
+    .bc{
+      width: 200%;
+      height: 300px;
+      position: relative;
+      left: -333px;
+      top: -2.8rem;
+     }
+     /*2nd div*/
+     .service{
+      width: 372.7%;
+      height: 3400px;
+      position: relative;
+      left: 0px;
+      top: 50px;
+      background-color: white;
+     }
+    
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 3000px;
+        }
+        /*how we work*/
+.nazii{
+  width: 1400px;
+  margin: 10px;
+  padding: -10px;
+  position: relative;
+  top: 20px;
+  left: -20px;
+  height: 2300px;
+}
+
+.rc209{
+  background-color: rgb(255, 255, 255);
+  width: 860px;
+  height: 15px;
+  position: relative;
+  right: -280px;
+  top: -rem;
+}
+.nnn{
+font-weight: bolder;
+  width:280px;
+  height: 65px;
+  position: relative;
+  left: 280px;
+  top: -1.6rem;
+  color: teal;
+  background-color: white;
+  font-size: 23px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+}
+
+.container10 {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  height: 600px;
+}
+
+.rectangle99 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 13px;
+  position: relative;
+  top: 4rem;
+  height: 400px;
+  width: 150px;
+  padding-top: 50px;
+  margin: 0 10px;
+}
+
+.rectangle99 img {
+  width: 100px;
+  height: 79px;
+  position: relative;
+  bottom: .2rem;
+}
+
+.rectangle99 h1 {
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  color: teal;
+  margin-top: 30px;
+  margin-bottom: px;
+  position: relative;
+  bottom: .7rem;
+}
+
+.rectangle99 p {
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+  color: teal;
+  position: relative;
+  bottom: 0.6rem;
+}
+
+         .feature{
+        position: relative;
+        background-color: white;
+        bottom: -10.3rem;
+        left: 5px;
+        width: 101.3%;
+        height: 500px;
+    }
+    
+    .rec4{
+        background-color: teal;
+        width: 420px;
+        height: 280px;
+        position: relative;
+        bottom: 0px;
+        left: 40px;
+        border-bottom: 1px solid;
+        border-color: black;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+    .rec4 img{
+        width: 90%;
+        height: 90%;
+        position: relative;
+        top: 17px;
+        left: 26px;
+    }
+    .rec5{
+        width: 670px;
+        height: 280px;
+        background-color: teal;
+        position: relative;
+        bottom: 17.7rem;
+        left: 38.5rem;
+        border-bottom: 1px solid;
+        border-color: black;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+    .rec5 img{
+        width: 92%;
+        height: 90%;
+        position: relative;
+        top: 16px;
+        left: 29px;
+    }
+    .niw{
+        width: 100%;;
+        height: 150px;
+        position: relative;
+        bottom: 15.4rem;
+        padding: 20px;
+        left: 2px;
+    }
+    .niw .rec7{
+        width: 350px;
+        height: 10px;
+        background-color: teal;
+        position: relative;
+        left: 20px;
+    }
+    .niw h1{
+        font-size: 30px;
+        width: 300px;
+        color: teal;
+        text-align: left;
+        position: relative;
+        right: -20px;
+    }
+    .niw .rec8{
+        width: 350px;
+        height: 10px;
+        background-color: teal;
+        position: relative;
+        left: 39.4rem;
+        bottom: 5.85rem;
+    }
+    .rec8 h2{
+        font-size: 30px;
+        width: 300px;
+        color: teal;
+        text-align: left;
+        position: relative;
+        left: 0rem;
+        top: 32px;
+    }
+    .dot-container {
+        display: flex;
+      }
+      
+      .dot {
+        width: 50px;
+        height: 50px;
+        background-color: teal;
+        position: relative;
+        left: 40.4rem;
+        top: -12px;
+        border-radius: 50%;
+        margin-right: 10px; /* Adjust spacing between dots as needed */
+      }
+      
+      .dot1 {
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+        position: relative;
+        left: 40.4rem;
+        top: -12px;
+        border-radius: 50%;
+        margin-right: 10px; /* Adjust spacing between dots as needed */
+      }
+
+  
+/*about*/
+.abiy{
+  height: 640px;
+  width: 1350px;
+}
+.rc19{
+  background-color: teal;
+  width: 860px;
+  height: 15px;
+  position: relative;
+  right: -170px;
+  top: 5rem;
+}
+.nine{
+font-weight: bolder;
+  width:280px;
+  height: 65px;
+  position: relative;
+  left: 440px;
+  top: 2.5rem;
+  color: white;
+  background-color: teal;
+  font-size: 18px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+}
+
+.container4 {
+display: flex;
+}
+
+.image-column {
+flex: 1;
+}
+.image220{
+  display: none;
+}
+.image-column img {
+width: 540px;
+height: 380px;
+position: relative;
+left: 30px;
+top: 100px;
+}
+
+.text-column {
+flex: 1;
+width: 180px;
+padding-left: 200px;
+height: 550px;
+}
+.text-column h1{
+width: 90%;
+height: 60px;
+font-size: 28px;
+position: relative;
+top: 70px;
+left: -8rem;
+}
+.text-column h2{
+width: 100%;
+height: 50px;
+font-size: 28px;
+position: relative;
+bottom: -28px;
+left: -8rem;
+}
+.text-column p{
+width: 100%;
+font-size: 18px;
+position: relative;
+bottom: -20px;
+height: 200px;
+left: -8rem;
+}
+.nazi{
+  background-color: teal;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+.rec219{
+  background-color: teal;
+  width: 860px;
+  height: 15px;
+  position: relative;
+  right: -180px;
+  top: -35rem;
+}
+.nnnn{
+font-weight: bolder;
+  width:280px;
+  height: 65px;
+  position: relative;
+  left: 420px;
+  top: -37.6rem;
+  color: white;
+  background-color: teal;
+  font-size: 23px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+}
+.container10 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+.rectangle19 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 13px;
+  position: relative;
+  top: 4rem;
+  height: 90px;
+  width: 70px;
+  margin: 0 10px;
+}
+
+.rectangle19 img {
+  width: 30px;
+  height: 19px;
+  position: relative;
+  bottom: .2rem;
+}
+
+.rectangle19 h1 {
+  font-size: 5px;
+  width: 70px;
+  text-align: center;
+  color: teal;
+  margin-top: 10px;
+  margin-bottom: px;
+  position: relative;
+  bottom: .7rem;
+}
+
+.rectangle19 p {
+  font-size: 4.13px;
+  width: 70px;
+  text-align: center;
+  margin: 0;
+  color: teal;
+  position: relative;
+  bottom: 0.6rem;
+}
+/* Serv*/
+.hy{
+  width: 200%;
+  height: 100px;
+  background-color: white;
+}
+.tri19{
+  background-color: teal;
+  width: 860px;
+  height: 15px;
+  position: relative;
+  right: -240px;
+  top: 2rem;
+}
+.tri20{
+font-weight: bolder;
+  width:280px;
+  height: 65px;
+  position: relative;
+  left: 520px;
+  top: -0.4rem;
+  color: white;
+  background-color: teal;
+  font-size: 23px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+}
+.serv {
+  position: relative;
+  top: 30px;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-color: teal;
+}
+
+.image-co1umn {
+  flex: 1;
+}
+
+.image20 {
+  position: relative;
+  top: 38px;
+  left: 90px;
+  width:580px;
+  height: 340px;
+}
+
+.text-co1umn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  background-color: teal;
+}
+
+.text-co1umn h1 {
+  font-size: 27px;
+  color: white;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+.text-co1umn p {
+  font-size: 21px;
+  position: relative;
+  color: white;
+  bottom: 20px;
+  left: 40px;
+}
+.tri1{
+  background-color: white;
+  
+  width: 308px;
+  height: 63px;
+  position: relative;
+  right: -1159px;
+  top: -3.5rem;
+  transform: rotate(-45deg);
+  clip-path: polygon(0 0, 100% 0, 80% 90%, 60% 90%, 20% 90%);
+  
+}
+.uf {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 570px;
+  color: #02090e;
+  bottom: px;
+  }
+  .image22{
+    position: relative;
+    left: 700px;
+    bottom: 350px;
+  }
+  .text-co1umn2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    background-color: white;
+    padding-top: 350px;
+    padding-left: 90px;
+  }
+  
+  .text-co1umn2 h1 {
+    font-size: 34px;
+    color: teal;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .text-co1umn2 p {
+    font-size: 21px;
+    position: relative;
+    color: teal;
+    bottom: 80px;
+  }
+  .ti1{
+    background-color: teal;
+    width: 408px;
+    height: 89px;
+    position: relative;
+    right: 94px;
+    top: -12.7rem;
+    transform: rotate(45deg);
+    clip-path: polygon(0 0, 100% 0, 80% 90%, 60% 90%, 20% 90%);
+    
+  }
+  .servv {
+    position: relative;
+    top: -133px;
+    display: flex;
+    width: 100%;
+    height: 570px;
+   background-color: teal;
+  }
+  
+  .image-co1umn20 {
+    flex: 1;
+    position: relative;
+  
+    
+  }
+  
+  .image210 {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width:580px;
+    height: 410px;
+  }
+  
+  .text-co1umn20 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    top: 40px;
+  
+  }
+  
+  .text-co1umn20 h1 {
+    font-size: 34px;
+    color: white;
+    width: 370px;
+    position: relative;
+    bottom: 10px;
+    right: -90px;
+  }
+  
+  .text-co1umn20 p {
+    font-size: 21px;
+    position: relative;
+    color: white;
+    bottom: 40px;
+    right: -90px;
+  }
+  .tii1{
+    background-color: white;
+    width: 408px;
+    height: 69px;
+    position: relative;
+    right: -1074px;
+    top: -17.2rem;
+    transform: rotate(-45deg);
+    clip-path: polygon(0 0, 100% 0, 80% 90%, 60% 90%, 20% 90%);
+    
+  }
+  .image202{
+    display: none;
+    width: 180px;
+    position: relative;
+    top: -248px;
+    left: 1069px;
+    height: 360px;
+  }
+  .cti{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 40px;
+  }
+  .cti{
+    width: 100%;
+    position: relative;
+    top: 12rem;
+    height: 600px;
+  }
+  .cti h1{
+    color: white;
+    font-size: 34px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+  }
+  .nity{
+    width: 100%;
+    height: 100%;
+    margin-top: -180px;
+  }
+  
+  .portfolio-section{
+    width: 374%;
+    height: 1330px;
+    background-color: white;
+  }
+  .portfolio-section1 {
+    position: relative;
+    top: 30px;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .portfolio-section h1 {
+    text-align: center;
+    font-size: 46px;
+    position: relative;
+    top: 40px;
+  }
+  
+  .portfolio-section p {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: -30px;
+  }
+  
+  .portfolio-images {
+    position: relative;
+    top: 20px;
+    padding-left: 50px;
+    width: 107%;
+    left: -45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-image {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 40px;
+  }
+  
+  .dot-container1 {
+    display: flex;
+    position: relative;
+    top: 0px;
+  }
+  
+  .dot3 {
+    width: 60px;
+    height: 60px;
+    background-color: teal;
+    position: relative;
+    left: 32rem;
+    border-radius: 50%;
+    margin-right: 10px; /* Adjust spacing between dots as needed */
+  }
+  .dot2{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 32rem;
+    border-radius: 50%;
+    margin-right: 10px; 
+    background-color: gray;
+  }
+
+   .chu{
+    
+  position: relative;
+  top: 220px;
+  width: 100%;
+  height: 450px;
+  background-color: #0C7885;
+}
+.cr1{
+  display: flex;
+  height: 550px;
+  background-color: #0C7885;
+
+}
+.cr1 h1{
+  font-size: 34px;
+  position: relative;
+  left: 100px;
+  top: -200px;
+  color: #02090e;
+}
+
+.cr3{
+  background-color: white;
+  border-bottom: 5px solid #11474D;;
+  border-top: 5px solid #11474D;;
+  border-left: 5px solid #11474D;;
+  border-right: 5px solid #11474D;;
+  position: relative;
+  color: #0C7885;  /* Text color */
+  width: 440px;
+  height: 300px;
+  left: -830px;
+  top: 70px;
+  align-content: center;
+}
+.proage{
+  width: 100px;
+  margin: 20px;
+  align-self: center;
+  position: relative;
+  left: 0px;
+}
+.proage1{
+  width: 100px;
+  margin: 20px;
+  align-self: center;
+  position: relative;
+  left: 0px;
+}
+.cr3 h2{
+  text-align: center;
+  font-size: 20px;
+}
+.cr6{
+  background-color: rgb(2, 49, 49);
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  position: relative;
+  color: #fff; /* Text color */
+  width: 440px;
+  margin-right: -160px;
+  height: 300px;
+  left: -430px;
+  top: 60px;
+  align-content: center;
+}
+
+
+.cr6 h2{
+  text-align: center;
+  font-size: 20px;
+  top: 30px;
+}
+.chu h3{
+  position: relative;
+  top: -30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.counting-number {
+  font-size: 24px; /* Adjust font size */
+  font-weight: bold; /* Add bold font weight */
+  color: #ff0000; /* Change text color */
+}
+
+  }
+  @media screen and (width: 412px) {
+
+ 
+  
+   
+}
+  

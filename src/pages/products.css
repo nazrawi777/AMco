@@ -1,0 +1,824 @@
+.niy{
+    width: 100%;
+    height: 3200px;
+}
+.buttons {
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+     /* Add space between buttons */
+  }
+  .buttons .b1 {
+    width: 40px;
+  }
+  .buttons button {
+    z-index: 4;
+    width: 100px; /* Set a fixed width for each button */
+    height: 40px; /* Set a fixed height for each button */
+    margin: 30px 40px; /* Adjust the margin to narrow down space */
+    padding: 1px 3px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #1d556b;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 250px;
+    margin: 10px;
+    margin-top: 30px; /* Adjust margin for spacing between cards */
+    padding: 20px;
+    border: 4px solid #03dac5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2); /* Box shadow with black color */
+    transition: transform 0.3s ease; /* Transition effect for smooth movement */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Move the card upward slightly */
+  }
+  .cardimg {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+  }
+  
+  .cardbody {
+    text-align: center;
+  }
+  
+  .cardtitle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .cardtext {
+    color: #03dac5;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #101111;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #03dac5;
+  }
+/*contactpage*/
+.container009 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6rem;
+  left: 100px;
+  height: 0px;
+  padding-top: 100px;
+}
+.contactc1 {
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -60px;
+  top: 2600px;
+}
+.contactc1 h2{
+  font-size: 70px;
+  color: #0C7885;
+  position: relative;
+  top: 160px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.input-row2{
+  width: 100px;
+  height: 30px;
+}
+
+.input-box {
+  flex: 1;
+  position: relative;
+  top: 150px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box:last-child {
+  margin-right: 10px;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box textarea {
+  height: 100px;
+}
+.input-row2 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 21px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+/* Hover effect */
+.input-row2 input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.contactc2{
+  position: relative;
+  top:450px;
+  width: 420px;
+  height: 300px;
+  left: 10px;
+
+}
+.contact-infoc2{
+  position: relative;
+  bottom: -2480px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.nuc2{
+  position: relative;
+  bottom: 110px;
+  left: 130px;
+  color: gray;
+}
+.contc2{
+  position: relative;
+  bottom: -170px;
+  color: gray;
+}
+.contactc3{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 3090px;
+  left: 100px;
+}
+.contactc3 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-mediac3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-mediac3 .iconc3 {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-mediac3 .iconc3:hover {
+  color: #0C7885;
+}
+
+.imag29{
+    background-color: #0C7885;
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.si219c3{
+  background-color: white;
+  width: 1200px;
+  height: 7px;
+  position: relative;
+  right: -80px;
+  top: -34rem;
+}
+.latc3{
+  width:250px;
+  height: 65px;
+  position: relative;
+  left: 550px;
+  top: -36.5rem;
+  color: teal;
+  background-color: white;
+  font-size: 29px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+  z-index: 4;
+}
+.c3{
+color: #0C7885;
+font-size: 20px;
+text-align: center;
+width: 50%;
+height: auto;
+left: 450px;
+position: relative;
+bottom: -210px;
+}
+  
+  /* Media query for mobile */
+  @media screen and (max-width: 480px) {
+    .niy{
+      width: 100%;
+      height: 3500px;
+      
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between buttons */
+    width: 300%;
+    padding-left: 130px;
+    z-index: 3; /* Ensure buttons span the full width of the container */
+  }
+  
+
+  .buttons button {
+    z-index: 4;
+    flex-grow: 2; /* Allow buttons to grow and fill available space */
+    height: 40px; /* Set a fixed height for each button */
+    margin: 60px 25px; /* Adjust the margin to narrow down space */
+    padding: 1px 3px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    cursor: pointer;
+  }
+    
+    .buttons button:hover {
+      background-color: #1d556b;
+    }
+    .box {
+      display: flex;
+      width: 300%;
+      margin-left: 100px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .card {
+      width: 250px;
+      margin: 30px; /* Adjust margin for spacing between cards */
+      padding: 20px;
+      border: 4px solid #03dac5; /* Updated border color */
+      border-radius: 25px;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2); /* Box shadow with black color */
+      transition: transform 0.3s ease; /* Transition effect for smooth movement */
+    }
+    
+    .card:hover {
+      transform: translateY(-10px); /* Move the card upward slightly */
+    }
+    .cardimg {
+      width: 100%;
+      height: 250px;
+      border-radius: 5px;
+
+    }
+    
+    .cardbody {
+      text-align: center;
+    }
+    
+    .cardtitle {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    
+    .cardtext {
+      color: #03dac5;
+      margin-bottom: 15px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 5px;
+      background-color: #0e0e0f;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      background-color: #03dac5;
+    }
+
+    /*contactpage*/
+.container009 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6rem;
+  left: 100px;
+  height: 0px;
+  padding-top: 100px;
+}
+.contactc1 {
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -60px;
+  top: 3900px;
+}
+.contactc1 h2{
+  font-size: 70px;
+  color: #0C7885;
+  position: relative;
+  top: 160px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.input-row2{
+  width: 100px;
+  height: 30px;
+}
+
+.input-box {
+  flex: 1;
+  position: relative;
+  top: 150px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box:last-child {
+  margin-right: 10px;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box textarea {
+  height: 100px;
+}
+.input-row2 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 21px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+/* Hover effect */
+.input-row2 input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.contactc2{
+  position: relative;
+  top: 1750px;
+  width: 420px;
+  height: 300px;
+  left: 10px;
+
+}
+.contact-infoc2{
+  position: relative;
+  bottom: -2480px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.nuc2{
+  position: relative;
+  bottom: 110px;
+  left: 130px;
+  color: gray;
+}
+.contc2{
+  position: relative;
+  bottom: -170px;
+  color: gray;
+}
+.contactc3{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 4380px;
+  left: 100px;
+}
+.contactc3 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-mediac3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-mediac3 .iconc3 {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-mediac3 .iconc3:hover {
+  color: #0C7885;
+}
+
+.imag29{
+    background-color: #0C7885;
+    width: 372%;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.si219c3{
+  background-color: white;
+  width: 1000px;
+  height: 7px;
+  position: relative;
+  right: -144px;
+  top: -34rem;
+}
+.latc3{
+  width:250px;
+  height: 65px;
+  position: relative;
+  left: 550px;
+  top: -36.5rem;
+  color: teal;
+  background-color: white;
+  font-size: 29px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+  z-index: 4;
+}
+.c3{
+color: #0C7885;
+font-size: 23px;
+text-align: center;
+width: 150%;
+height: auto;
+left: 470px;
+position: relative;
+bottom: -210px;
+}
+  
+  
+  }
+  
+  @media (max-width: 412px) { /* Corrected media query */
+    .niy{
+      width: 100%;
+      height: 3500px;
+      
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between buttons */
+    width: 300%;
+    padding-left: 50px;
+    z-index: 3; /* Ensure buttons span the full width of the container */
+  }
+  
+
+  .buttons button {
+    z-index: 4;
+    flex-grow: 2; /* Allow buttons to grow and fill available space */
+    height: 40px; /* Set a fixed height for each button */
+    margin: 60px 25px; /* Adjust the margin to narrow down space */
+    padding: 1px 3px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    cursor: pointer;
+  }
+    
+    .buttons button:hover {
+      background-color: #1d556b;
+    }
+    .box {
+      display: flex;
+      width: 300%;
+      margin-left: 10px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .card {
+      width: 250px;
+      margin: 30px; /* Adjust margin for spacing between cards */
+      padding: 20px;
+      border: 4px solid #03dac5; /* Updated border color */
+      border-radius: 25px;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2); /* Box shadow with black color */
+      transition: transform 0.3s ease; /* Transition effect for smooth movement */
+    }
+    
+    .card:hover {
+      transform: translateY(-10px); /* Move the card upward slightly */
+    }
+    .cardimg {
+      width: 100%;
+      height: 250px;
+      border-radius: 5px;
+
+    }
+    
+    .cardbody {
+      text-align: center;
+    }
+    
+    .cardtitle {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    
+    .cardtext {
+      color: #03dac5;
+      margin-bottom: 15px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 5px;
+      background-color: #0e0e0f;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      background-color: #03dac5;
+    }
+
+    /*contactpage*/
+.container009 {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 6rem;
+  left: 100px;
+  height: 0px;
+  padding-top: 100px;
+}
+.contactc1 {
+  width: 500px;
+  height: 680px;
+  position: relative;
+  left: -60px;
+  top: 3900px;
+}
+.contactc1 h2{
+  font-size: 70px;
+  color: #0C7885;
+  position: relative;
+  top: 160px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.input-row2{
+  width: 100px;
+  height: 30px;
+}
+
+.input-box {
+  flex: 1;
+  position: relative;
+  top: 150px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.input-box input[type="text"].increased-width {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.input-box:last-child {
+  margin-right: 10px;
+}
+
+.input-box input[type="text"],
+.input-box textarea {
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 4px solid teal; /* Adding border to all sides with teal color */
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box textarea::placeholder {
+  color: #999; /* Placeholder text color */
+  font-family: Arial, sans-serif; /* Changing placeholder font-family */
+}
+
+.input-box textarea {
+  height: 100px;
+}
+.input-row2 input[type="submit"] {
+  background-color: #0C7885; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 21px; /* Font size */
+  position: relative;
+  left: 20px;
+  top: 150px;
+}
+
+/* Hover effect */
+.input-row2 input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+.contactc2{
+  position: relative;
+  top: 1750px;
+  width: 420px;
+  height: 300px;
+  left: 10px;
+
+}
+.contact-infoc2{
+  position: relative;
+  bottom: -2480px;
+  font-size: 22px;
+  line-height: 70px;
+  color: gray;
+}
+.nuc2{
+  position: relative;
+  bottom: 110px;
+  left: 130px;
+  color: gray;
+}
+.contc2{
+  position: relative;
+  bottom: -170px;
+  color: gray;
+}
+.contactc3{
+  width: 200px;
+  height: 400px;
+  position: relative;
+  top: 4380px;
+  left: 100px;
+}
+.contactc3 h2{
+  font-size: 50px;
+  color: #0C7885;
+}
+.social-mediac3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-mediac3 .iconc3 {
+  font-size: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: gray;
+  position: relative;
+  bottom: 50px;
+}
+
+.social-mediac3 .iconc3:hover {
+  color: #0C7885;
+}
+
+.imag29{
+    background-color: #0C7885;
+    width: 322%;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.si219c3{
+  background-color: white;
+  width: 1000px;
+  height: 7px;
+  position: relative;
+  right: -144px;
+  top: -34rem;
+}
+.latc3{
+  width:250px;
+  height: 65px;
+  position: relative;
+  left: 550px;
+  top: -36.5rem;
+  color: teal;
+  background-color: white;
+  font-size: 29px;
+  border-top: 3px solid teal;
+  border-left: 3px solid teal;
+  border-right: 3px solid teal;
+  border-bottom: 3px solid teal;
+  box-shadow: 3px 3px 5px black; /* Adjust the shadow as needed */
+  z-index: 4;
+}
+.c3{
+color: #0C7885;
+font-size: 23px;
+text-align: center;
+width: 150%;
+height: auto;
+left: 470px;
+position: relative;
+bottom: -210px;
+}
+  
+  
+  }
+  
